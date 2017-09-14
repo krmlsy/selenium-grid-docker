@@ -1,3 +1,10 @@
-google\test\cases\SeleniumTest$1.class
-google\test\cases\SeleniumTest$2.class
-google\test\cases\SeleniumTest.class
+selenium\test\base\GridParallelTestBase.class
+selenium\test\cases\SeleniumTest$6.class
+selenium\test\cases\SeleniumTest$2.class
+selenium\run\parallel\Parallelized$ThreadPoolScheduler.class
+selenium\test\cases\SeleniumTest$4.class
+selenium\test\cases\SeleniumTest$1.class
+selenium\test\cases\SeleniumTest.class
+selenium\run\parallel\Parallelized.class
+selenium\test\cases\SeleniumTest$5.class
+selenium\test\cases\SeleniumTest$3.class
