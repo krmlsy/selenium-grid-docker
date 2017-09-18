@@ -13,6 +13,9 @@ import org.openqa.selenium.WebElement;
 
 import selenium.test.base.GridParallelTestBase;
 
+/**
+ * KEREM ULUSOY
+ */
 @RunWith(selenium.run.parallel.Parallelized.class)
 public class SeleniumTest extends GridParallelTestBase {
 	
@@ -112,6 +115,7 @@ public class SeleniumTest extends GridParallelTestBase {
 	
 	@After
     public void tearDown() throws Exception {
+
         driver.quit();
     }
 

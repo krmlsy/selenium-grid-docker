@@ -18,65 +18,71 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 /**
- * Created by onurb on 26-Nov-16.
+ * KEREM ULUSOY
  */
 public class GridParallelTestBase {
-    //Declare DesiredCapabilities configuration variables
-    protected String browserName;
-    protected Platform platformName;
-    protected WebDriver driver;
+	// Declare DesiredCapabilities configuration variables
+	protected String browserName;
+	protected Platform platformName;
+	protected WebDriver driver;
 
-    //Hold all Configuration values in a LinkedList
-    //Extra Usage Information: http://www.swtestacademy.com/junit-parametrized-tests/
-    @Parameterized.Parameters
-    public static LinkedList<String[]> getEnvironments() throws Exception {
-        LinkedList<String[]> env = new LinkedList<String[]>();
-        env.add(new String[]{"firefox"});
-        env.add(new String[]{"chrome"});
-//        env.add(new String[]{"internet explorer"});
-        //add more browsers here
-        return env;
-    }
+	// Hold all Configuration values in a LinkedList
+	// Extra Usage Information:
+	// http://www.swtestacademy.com/junit-parametrized-tests/
+	@Parameterized.Parameters
+	public static LinkedList<String[]> getEnvironments() throws Exception {
+		LinkedList<String[]> env = new LinkedList<String[]>();
+		env.add(new String[] { "firefox" });
+		env.add(new String[] { "chrome" });
+		// env.add(new String[]{"internet explorer"});
+		// add more browsers here
+		return env;
+	}
 
-    //Constructor
-    public GridParallelTestBase(String browserName) {
-        this.browserName = browserName;
-    }
+	// Constructor
+	public GridParallelTestBase(String browserName) {
+		this.browserName = browserName;
+	}
 
-    public void setPlatform (Platform platform) {
-        platformName = platform;
-    }
+	public void setPlatform(Platform platform) {
+		platformName = platform;
+	}
 
-    @Before
-    public void setUp() throws Exception {
-        //Set DesiredCapabilities
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        //Firefox Profile Settings
-        if (browserName.equals("firefox")) {
-        	capabilities.setCapability(CapabilityType.PLATFORM, "LINUX");
-        	capabilities.setCapability(CapabilityType.BROWSER_NAME, "firefox");
-        	capabilities.setCapability(CapabilityType.VERSION, "52.0.2");
-        }
-        //Chrome Profile Settings
-        if (browserName.equals("chrome")) {
-         	capabilities.setCapability(CapabilityType.PLATFORM, "LINUX");
-        	capabilities.setCapability(CapabilityType.BROWSER_NAME, "chrome");
-        	capabilities.setCapability(CapabilityType.VERSION, "60.0.3112.113");
-        }
-        //IE Profile Settings
-        if (browserName.equals("internet explorer")) {
-         	capabilities.setCapability(CapabilityType.PLATFORM, "WINDOWS");
-        	capabilities.setCapability(CapabilityType.BROWSER_NAME, "internet explorer");
-        	capabilities.setCapability(CapabilityType.VERSION, "11.0.9600.17107");
-        	capabilities.setCapability("ie.ensureCleanSession", true);
-        	capabilities.setCapability("ignoreProtectedModeSettings", true);
-        }
+	@Before
+	public void setUp() throws Exception {
 
-        driver = new RemoteWebDriver(new URL("http://192.168.8.102:4444/wd/hub/"), capabilities);
-    }
+		// Set DesiredCapabilities
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		// Firefox Profile Settings
+		if (browserName.equals("firefox")) {
+			capabilities.setCapability(CapabilityType.PLATFORM, "LINUX");
+			capabilities.setCapability(CapabilityType.BROWSER_NAME, "firefox");
+			capabilities.setCapability(CapabilityType.VERSION, "52.0.2");
+		}
+		// Chrome Profile Settings
+		if (browserName.equals("chrome")) {
+			capabilities.setCapability(CapabilityType.PLATFORM, "LINUX");
+			capabilities.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+			capabilities.setCapability(CapabilityType.VERSION, "60.0.3112.113");
+		}
+		// IE Profile Settings
+		if (browserName.equals("internet explorer")) {
+			capabilities.setCapability(CapabilityType.PLATFORM, "WINDOWS");
+			capabilities.setCapability(CapabilityType.BROWSER_NAME, "internet explorer");
+			capabilities.setCapability(CapabilityType.VERSION, "11.0.9600.17107");
+			capabilities.setCapability("ie.ensureCleanSession", true);
+			capabilities.setCapability("ignoreProtectedModeSettings", true);
+		}
 
-    //TakeScreenShot
-    public void takeScreenShot () {
+		driver = new RemoteWebDriver(new URL("http://217.182.91.245:4444/wd/hub/"), capabilities);
+		
+		 // maximize screen
+        driver.manage().window().maximize();
+       
+	}
+
+	// TakeScreenShot
+	public void takeScreenShot() {
 		String path;
 		try {
 			WebDriver augmentedDriver = new Augmenter().augment(driver);
@@ -86,6 +92,6 @@ public class GridParallelTestBase {
 		} catch (IOException e) {
 			path = "Failed to capture screenshot: " + e.getMessage();
 		}
-    }
+	}
 
 }

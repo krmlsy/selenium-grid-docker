@@ -7,6 +7,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
  
+/**
+ * KEREM ULUSOY
+ */
 public class Parallelized extends Parameterized {
  
     private static class ThreadPoolScheduler implements RunnerScheduler {
