@@ -25,14 +25,17 @@ public class DataManager {
 		
 		for (int i = 0; i < nodeCount; i++) {
 			
-			insertData("'SeleniumTest'", "'titleControl'" , "'url'" , "'http://www.google.com.tr'");
-			insertData("'SeleniumTest'", "'titleControl'" , "'searchKey'" , "'Araba'");
+//			insertData("'SeleniumTest'", "'titleControl'" , "'url'" , "'http://www.google.com.tr'");
+//			insertData("'SeleniumTest'", "'titleControl'" , "'searchKey'" , "'Araba'");
+//			
+//			insertData("'SeleniumTest'", "'titleControl2'" , "'url'" , "'http://www.google.com.tr'");
+//			insertData("'SeleniumTest'", "'titleControl2'" , "'searchKey'" , "'Araba'");
+//
+//			insertData("'SeleniumTest'", "'titleControl3'" , "'url'" , "'http://www.google.com.tr'");
+//			insertData("'SeleniumTest'", "'titleControl3'" , "'searchKey'" , "'Araba'");
 			
-			insertData("'SeleniumTest'", "'titleControl2'" , "'url'" , "'http://www.google.com.tr'");
-			insertData("'SeleniumTest'", "'titleControl2'" , "'searchKey'" , "'Araba'");
-
-			insertData("'SeleniumTest'", "'titleControl3'" , "'url'" , "'http://www.google.com.tr'");
-			insertData("'SeleniumTest'", "'titleControl3'" , "'searchKey'" , "'Araba'");
+			insertData("'HepsiBuradaTest'", "'panelControl'" , "'url'" , "'http://www.hepsiburada.com'");
+			insertData("'HepsiBuradaTest'", "'panelControl'" , "'searchKey'" , "'telefon'");
 		}
 
 		

@@ -39,9 +39,9 @@ public class GridParallelTestBase {
 	public static LinkedList<String[]> getEnvironments() throws Exception {
 		LinkedList<String[]> env = new LinkedList<String[]>();
 		env.add(new String[] { "firefox", Nodes.Firefox.VERSION_52.getValue() });
-		env.add(new String[] { "firefox", Nodes.Firefox.VERSION_55.getValue() });
+//		env.add(new String[] { "firefox", Nodes.Firefox.VERSION_55.getValue() });
 		env.add(new String[] { "chrome",  Nodes.Chrome.VERSION_60.getValue() });
-		env.add(new String[] { "chrome",  Nodes.Chrome.VERSION_61.getValue() });
+//		env.add(new String[] { "chrome",  Nodes.Chrome.VERSION_61.getValue() });
 		env.add(new String[]{"internet explorer" , Nodes.InternetExplorer.VERSION_11.getValue()});
 		// add more browsers here
 		return env;
