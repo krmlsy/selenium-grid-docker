@@ -1,0 +1,212 @@
+src/test/java/selenium/data/management/DataManager.java:11:	headerCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:13:	To avoid mistakes add a comment at the beginning of the crunchifyConn field if you want a default access modifier
+src/test/java/selenium/data/management/DataManager.java:13:	Use explicit scoping instead of the default package private level
+src/test/java/selenium/data/management/DataManager.java:13:	fieldCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:14:	Avoid using redundant field initializer for 'stmt'
+src/test/java/selenium/data/management/DataManager.java:14:	To avoid mistakes add a comment at the beginning of the stmt field if you want a default access modifier
+src/test/java/selenium/data/management/DataManager.java:14:	Use explicit scoping instead of the default package private level
+src/test/java/selenium/data/management/DataManager.java:14:	fieldCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:17:	Parameter 'args' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:17:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:18:	Avoid variables with short names like dm
+src/test/java/selenium/data/management/DataManager.java:18:	Local variable 'dm' could be declared final
+src/test/java/selenium/data/management/DataManager.java:22:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:24:	Local variable 'nodeCount' could be declared final
+src/test/java/selenium/data/management/DataManager.java:28:	Comment is too large: Line too long
+src/test/java/selenium/data/management/DataManager.java:31:	Comment is too large: Line too long
+src/test/java/selenium/data/management/DataManager.java:34:	Comment is too large: Line too long
+src/test/java/selenium/data/management/DataManager.java:44:	Parameter 'scenarioName' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:44:	Parameter 'testStep' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:44:	Parameter 'value' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:44:	Parameter 'variable' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:44:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/test/java/selenium/data/management/DataManager.java:44:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:49:	Local variable 'maxId' could be declared final
+src/test/java/selenium/data/management/DataManager.java:51:	Local variable 'insertTableSQL' could be declared final
+src/test/java/selenium/data/management/DataManager.java:54:	System.out.println is used
+src/test/java/selenium/data/management/DataManager.java:57:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/data/management/DataManager.java:62:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/test/java/selenium/data/management/DataManager.java:62:	Parameter 'key' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:62:	Parameter 'scenarioName' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:62:	Parameter 'testStep' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:62:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:64:	Local variable 'result' could be declared final
+src/test/java/selenium/data/management/DataManager.java:70:	Local variable 'selectTableSQL' could be declared final
+src/test/java/selenium/data/management/DataManager.java:72:	System.out.println is used
+src/test/java/selenium/data/management/DataManager.java:73:	Avoid variables with short names like rs
+src/test/java/selenium/data/management/DataManager.java:73:	Ensure that resources like this ResultSet object are closed after use
+src/test/java/selenium/data/management/DataManager.java:73:	Local variable 'rs' could be declared final
+src/test/java/selenium/data/management/DataManager.java:74:	Avoid variables with short names like id
+src/test/java/selenium/data/management/DataManager.java:74:	Found 'DD'-anomaly for variable 'id' (lines '74'-'77').
+src/test/java/selenium/data/management/DataManager.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:80:	Local variable 'value' could be declared final
+src/test/java/selenium/data/management/DataManager.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:83:	System.out.println is used
+src/test/java/selenium/data/management/DataManager.java:89:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/data/management/DataManager.java:96:	Parameter 'scenarioId' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:96:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:101:	Local variable 'updateTableSQL' could be declared final
+src/test/java/selenium/data/management/DataManager.java:105:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/data/management/DataManager.java:110:	Parameter 'scenarioId' is not assigned and could be declared final
+src/test/java/selenium/data/management/DataManager.java:110:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:115:	Local variable 'updateTableSQL' could be declared final
+src/test/java/selenium/data/management/DataManager.java:119:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/data/management/DataManager.java:124:	publicMethodCommentRequirement Required
+src/test/java/selenium/data/management/DataManager.java:125:	Found 'DD'-anomaly for variable 'recordCount' (lines '125'-'136').
+src/test/java/selenium/data/management/DataManager.java:125:	Found 'DU'-anomaly for variable 'recordCount' (lines '125'-'168').
+src/test/java/selenium/data/management/DataManager.java:126:	Found 'DD'-anomaly for variable 'maxId' (lines '126'-'149').
+src/test/java/selenium/data/management/DataManager.java:126:	Found 'DD'-anomaly for variable 'maxId' (lines '126'-'159').
+src/test/java/selenium/data/management/DataManager.java:132:	Local variable 'getRecordCount' could be declared final
+src/test/java/selenium/data/management/DataManager.java:133:	Avoid variables with short names like rs
+src/test/java/selenium/data/management/DataManager.java:133:	Ensure that resources like this ResultSet object are closed after use
+src/test/java/selenium/data/management/DataManager.java:133:	Local variable 'rs' could be declared final
+src/test/java/selenium/data/management/DataManager.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:138:	Avoid if (x != y) ..; else ..;
+src/test/java/selenium/data/management/DataManager.java:144:	Local variable 'selectTableSQL' could be declared final
+src/test/java/selenium/data/management/DataManager.java:145:	System.out.println is used
+src/test/java/selenium/data/management/DataManager.java:146:	Ensure that resources like this ResultSet object are closed after use
+src/test/java/selenium/data/management/DataManager.java:146:	Local variable 'rs2' could be declared final
+src/test/java/selenium/data/management/DataManager.java:148:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:149:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/data/management/DataManager.java:151:	System.out.println is used
+src/test/java/selenium/data/management/DataManager.java:155:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/data/management/DataManager.java:159:	Found 'DD'-anomaly for variable 'maxId' (lines '159'-'149').
+src/test/java/selenium/data/management/DataManager.java:159:	Found 'DD'-anomaly for variable 'maxId' (lines '159'-'159').
+src/test/java/selenium/data/management/DataManager.java:164:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/database/ConnectDB.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/test/java/selenium/database/ConnectDB.java:14:	Avoid using redundant field initializer for 'crunchifyConn'
+src/test/java/selenium/database/ConnectDB.java:14:	To avoid mistakes add a comment at the beginning of the crunchifyConn field if you want a default access modifier
+src/test/java/selenium/database/ConnectDB.java:14:	Use explicit scoping instead of the default package private level
+src/test/java/selenium/database/ConnectDB.java:14:	fieldCommentRequirement Required
+src/test/java/selenium/database/ConnectDB.java:15:	Avoid using redundant field initializer for 'stmt'
+src/test/java/selenium/database/ConnectDB.java:15:	To avoid mistakes add a comment at the beginning of the stmt field if you want a default access modifier
+src/test/java/selenium/database/ConnectDB.java:15:	Use explicit scoping instead of the default package private level
+src/test/java/selenium/database/ConnectDB.java:15:	fieldCommentRequirement Required
+src/test/java/selenium/database/ConnectDB.java:18:	publicMethodCommentRequirement Required
+src/test/java/selenium/database/ConnectDB.java:20:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/test/java/selenium/database/ConnectDB.java:20:	Found 'DU'-anomaly for variable 'crunchifyConn' (lines '20'-'47').
+src/test/java/selenium/database/ConnectDB.java:24:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:26:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:27:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/database/ConnectDB.java:28:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/selenium/database/ConnectDB.java:34:	Avoid if (x != y) ..; else ..;
+src/test/java/selenium/database/ConnectDB.java:35:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:37:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:40:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:41:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/selenium/database/ConnectDB.java:42:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/selenium/database/ConnectDB.java:53:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:56:	Local variable 'sql' could be declared final
+src/test/java/selenium/database/ConnectDB.java:65:	System.out.println is used
+src/test/java/selenium/database/ConnectDB.java:66:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/selenium/database/ConnectDB.java:66:	Avoid empty catch blocks
+src/test/java/selenium/nodes/NodeInterface.java:3:	headerCommentRequirement Required
+src/test/java/selenium/nodes/NodeInterface.java:5:	publicMethodCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:3:	enumCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:10:	Avoid modifiers which are implied by the context
+src/test/java/selenium/nodes/Nodes.java:10:	enumCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:17:	fieldCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:23:	publicMethodCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:28:	Avoid modifiers which are implied by the context
+src/test/java/selenium/nodes/Nodes.java:28:	enumCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:35:	fieldCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:41:	publicMethodCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:46:	Avoid modifiers which are implied by the context
+src/test/java/selenium/nodes/Nodes.java:46:	enumCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:53:	fieldCommentRequirement Required
+src/test/java/selenium/nodes/Nodes.java:59:	publicMethodCommentRequirement Required
+src/test/java/selenium/run/parallel/Parallelized.java:15:	headerCommentRequirement Required
+src/test/java/selenium/run/parallel/Parallelized.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/selenium/run/parallel/Parallelized.java:16:	Private field 'executor' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/selenium/run/parallel/Parallelized.java:16:	fieldCommentRequirement Required
+src/test/java/selenium/run/parallel/Parallelized.java:20:	publicMethodCommentRequirement Required
+src/test/java/selenium/run/parallel/Parallelized.java:21:	Local variable 'threads' could be declared final
+src/test/java/selenium/run/parallel/Parallelized.java:22:	Local variable 'numThreads' could be declared final
+src/test/java/selenium/run/parallel/Parallelized.java:27:	publicMethodCommentRequirement Required
+src/test/java/selenium/run/parallel/Parallelized.java:32:	Avoid throwing raw exception types.
+src/test/java/selenium/run/parallel/Parallelized.java:37:	Parameter 'childStatement' is not assigned and could be declared final
+src/test/java/selenium/run/parallel/Parallelized.java:37:	To be compliant to J2EE, a webapp should not use any thread.
+src/test/java/selenium/run/parallel/Parallelized.java:37:	publicMethodCommentRequirement Required
+src/test/java/selenium/run/parallel/Parallelized.java:42:	Parameter 'klass' is not assigned and could be declared final
+src/test/java/selenium/run/parallel/Parallelized.java:42:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/selenium/test/base/GridParallelTestBase.java:29:	fieldCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/selenium/test/base/GridParallelTestBase.java:30:	fieldCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/selenium/test/base/GridParallelTestBase.java:31:	fieldCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/selenium/test/base/GridParallelTestBase.java:32:	fieldCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:33:	Avoid variables with short names like dm
+src/test/java/selenium/test/base/GridParallelTestBase.java:33:	fieldCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:39:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/test/java/selenium/test/base/GridParallelTestBase.java:39:	Avoid using implementation types like 'LinkedList'; use the interface instead
+src/test/java/selenium/test/base/GridParallelTestBase.java:39:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:40:	Local variable 'env' could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:41:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:42:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:43:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:44:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:45:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:51:	Parameter 'browserName' is not assigned and could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:51:	Parameter 'browserVersion' is not assigned and could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:51:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:56:	Parameter 'platform' is not assigned and could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:56:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:61:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:64:	Local variable 'capabilities' could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:66:	Found 'DD'-anomaly for variable 'url' (lines '66'-'72').
+src/test/java/selenium/test/base/GridParallelTestBase.java:66:	Found 'DD'-anomaly for variable 'url' (lines '66'-'79').
+src/test/java/selenium/test/base/GridParallelTestBase.java:66:	Found 'DD'-anomaly for variable 'url' (lines '66'-'88').
+src/test/java/selenium/test/base/GridParallelTestBase.java:68:	Position literals first in String comparisons
+src/test/java/selenium/test/base/GridParallelTestBase.java:69:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:70:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:72:	Do not hard code the IP address 
+src/test/java/selenium/test/base/GridParallelTestBase.java:72:	Found 'DD'-anomaly for variable 'url' (lines '72'-'79').
+src/test/java/selenium/test/base/GridParallelTestBase.java:72:	Found 'DD'-anomaly for variable 'url' (lines '72'-'88').
+src/test/java/selenium/test/base/GridParallelTestBase.java:75:	Position literals first in String comparisons
+src/test/java/selenium/test/base/GridParallelTestBase.java:76:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:77:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:79:	Do not hard code the IP address 
+src/test/java/selenium/test/base/GridParallelTestBase.java:79:	Found 'DD'-anomaly for variable 'url' (lines '79'-'88').
+src/test/java/selenium/test/base/GridParallelTestBase.java:82:	Position literals first in String comparisons
+src/test/java/selenium/test/base/GridParallelTestBase.java:83:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:84:	Potential violation of Law of Demeter (static property access)
+src/test/java/selenium/test/base/GridParallelTestBase.java:88:	Do not hard code the IP address 
+src/test/java/selenium/test/base/GridParallelTestBase.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/selenium/test/base/GridParallelTestBase.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/selenium/test/base/GridParallelTestBase.java:98:	Parameter 'testName' is not assigned and could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:98:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/base/GridParallelTestBase.java:101:	Local variable 'augmentedDriver' could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:102:	Local variable 'source' could be declared final
+src/test/java/selenium/test/base/GridParallelTestBase.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/selenium/test/base/GridParallelTestBase.java:106:	Found 'DU'-anomaly for variable 'path' (lines '106'-'108').
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:26:	Parameter 'browserName' is not assigned and could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:26:	Parameter 'browserVersion' is not assigned and could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:26:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:31:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:33:	System.out.println is used
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:37:	Local variable 'resultForUrl' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:38:	Local variable 'url' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:40:	Avoid excessively long variable names like resultForSearchKey
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:40:	Local variable 'resultForSearchKey' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:41:	Local variable 'searchKey' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:43:	Local variable 'startTime' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:45:	Local variable 'searchBox' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:49:	Local variable 'wait' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:50:	Local variable 'innerHTML' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:55:	System.out.println is used
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:56:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:57:	System.err.println is used
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:60:	Local variable 'endTime' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:61:	Local variable 'totalTime' could be declared final
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:62:	System.out.println is used
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:63:	System.out.println is used
+src/test/java/selenium/test/cases/HepsiBuradaTest.java:72:	publicMethodCommentRequirement Required
+src/test/java/selenium/test/cases/OneShot.java:33:	Comment is too large: Line too long
+src/test/java/selenium/test/cases/OneShot.java:50:	Comment is too large: Line too long
+src/test/java/selenium/test/cases/OneShot.java:81:	Comment is too large: Line too long
