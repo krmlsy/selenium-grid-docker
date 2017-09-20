@@ -16,7 +16,8 @@ public class DataManager {
 	
 	public static void main(String[] args) {
 		DataManager dm=new DataManager();
-		dm.generateData();
+//		dm.generateData();
+		dm.unlockedAllData();
 	}
 	
 	public void generateData(){
@@ -167,4 +168,18 @@ public class DataManager {
 		return Integer.parseInt(maxId);
 	}
 
+	
+	public void unlockedAllData() {
+		try {
+			stmt = crunchifyConn.createStatement();
+
+			String updateTableSQL = "UPDATE SCENARIO_INPUTS SET ACTIVE_FLAG=1";
+
+			stmt.executeUpdate(updateTableSQL);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
 }
